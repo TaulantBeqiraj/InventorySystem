@@ -66,6 +66,10 @@ Variables
   font-family: 'Poppins', sans-serif;
 }
 
+.App {
+  height: 100vh;
+}
+
 body {
   background-image: url("/public/images/bg-img.jpg");
   background-size: cover;
@@ -73,4 +77,5 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
+  height: 100vh;
 }

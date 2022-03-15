@@ -16,7 +16,7 @@ const Graph = ({data}) => {
     <StyledGraph>
       <div className="graphchart">
         <LineChart
-          width={1500}
+          width={1300}
           height={500}
           data={data}
           margin={{

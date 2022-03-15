@@ -82,7 +82,7 @@ const Register = ({ setShowRegister, showRegister }) => {
               value={values.confirmpassword || ""}
               onChange={(e) => {
                 handleChange(e);
-                checkValidation(e);
+                // checkValidation(e);
               }}
               className="form-control"
               id="confirmpassword"
@@ -92,8 +92,9 @@ const Register = ({ setShowRegister, showRegister }) => {
               required={true}
               minLength="6"
             />
-            <p>
+            <p style={{color: "red"}}>
               {isError
+              
                 ? "Your confirm password does not match to password"
                 : ""}
             </p>
